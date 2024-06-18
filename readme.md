@@ -193,6 +193,8 @@ La arquitectura del proyecto se compone de los siguientes componentes:
 
 Para visualizar los datos en InfluxDB, se ha configurado la base de datos para recibir los datos de Kafka. Se ha creado un bucket llamado `logs` y se ha conectado grafas para visualizar los datos en tiempo real.
 
+![influxdb](https://github.com/jz1k/Kafka-Streaming/blob/main/capturas/influx.jpg?raw=true)
+
 ## Grafana Dashboard
 
 Se ha creado un panel en Grafana para visualizar los datos en tiempo real. El panel muestra el tiempo que los usuarios pasan en la plataforma, el dispositivo que utilizan, el navegador que utilizan y muchos otros detalles.
