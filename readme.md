@@ -129,6 +129,7 @@ La arquitectura del proyecto se compone de los siguientes componentes:
    docker-compose exec broker1 kafka-topics --create --topic logs --partitions 2 --replication-factor 3 --if-not-exists --bootstrap-server broker1:29092,broker2:29093,broker3:29094
 
 3. **Iniciar el Productor de Kafka**:
+![productor](https://github.com/jz1k/Kafka-Streaming/blob/main/capturas/prod.jpg?raw=true)
    - Navega al directorio del productor y ejecuta el script para enviar datos a Kafka.
      ```python
         import json
@@ -207,6 +208,7 @@ La arquitectura del proyecto se compone de los siguientes componentes:
             main()
 
 4. **Iniciar el Consumidor de Kafka con Spark Streaming para mandar la información a InfluxDB**:
+![consumidor](https://github.com/jz1k/Kafka-Streaming/blob/main/capturas/cons.jpg?raw=true)
       ```python
         from confluent_kafka import Consumer
         from influxdb_client import InfluxDBClient, Point
