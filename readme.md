@@ -1,6 +1,4 @@
-# Kafka Streaming Project
-
-Este proyecto implementa un sistema de procesamiento de datos en tiempo real utilizando Apache Kafka. Incluye la configuración de Kafka, producción y consumo de mensajes, y procesamiento de streams para obtener insights valiosos de los datos en tiempo real.
+# Kafka Streaming Project.
 
 ## Contenido
 1. [Visión General del Proyecto](#visión-general-del-proyecto)
